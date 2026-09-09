@@ -1,56 +1,108 @@
-# Comprehensive HR Insights Dashboard
+# 📊 PeoplePulse
 
-## Overview
+### Workforce Intelligence & HR Analytics Dashboard
 
-Welcome to the "Comprehensive HR Insights Dashboard" developed using Power BI! This project delves into HR data, extracting valuable insights through a range of visualizations. It aims to provide a comprehensive view of the workforce, facilitating data-driven decision-making and strategic planning.
+> An interactive Power BI analytics solution designed to transform workforce data into actionable insights across employee demographics, departmental distribution, compensation, performance, and workforce trends.
 
-## Key Metrics Highlighted
+---
 
-- **Employee Count by Department**
-- **Gender Distribution by Department**
-- **Age Spread of Staff**
-- **Min/Max/Average Salary in Each Department**
-- **Top Earners in Each Country**
-- **Performance Spread**
-- **Company Growth Trend**
-- **Employee Filter (by Starting Letter)**
-- **Performance vs. Salary Relationship**
-- **India vs. New Zealand - Quick Scorecard**
+## 🚀 Dashboard Preview
 
-## Visualization Elements
+![PeoplePulse Dashboard](screenshots/overview.png)
 
-The dashboard utilizes various visual elements to present data, including:
+---
 
-- Clustered bar charts
-- Line charts
-- Pie charts
-- Scatter charts
-- Cards
-- Slicers
-- Tables
+## 🎯 Business Problem
 
-These elements offer a detailed and interactive view of the HR metrics, enabling deeper insights and more precise analysis.
+Organizations often have workforce data spread across multiple dimensions such as:
 
-## Features
+- Employee demographics
+- Department distribution
+- Compensation
+- Performance ratings
+- Workforce growth
 
-- **Interactive Filtering**: Allows users to filter data by department, country, performance ratings, and other criteria.
-- **Performance vs. Salary Analysis**: Identifies potential areas for salary adjustments and performance improvements.
-- **Growth Trend Analysis**: Provides a historical perspective to forecast future growth and staffing needs.
+PeoplePulse transforms these datasets into an interactive analytical dashboard that enables users to identify workforce patterns and support data-driven decision making.
 
-## Purpose
+---
 
-This project demonstrates the power of combining advanced data visualization techniques with HR analytics to drive strategic decisions and foster organizational growth.
+## 📊 Key Insights
 
-## How to Use
+### 👥 Workforce Overview
 
-1. Clone the repository to your local machine.
-2. Open the Power BI file to explore the dashboard.
-3. Interact with various visual elements and filters to gain insights from the HR data.
+- Total employee count
+- Department-wise workforce distribution
+- Gender composition
+- Workforce growth across years
 
-## Conclusion
+### 💰 Compensation Analytics
 
-The Comprehensive HR Insights Dashboard is a powerful tool designed to provide in-depth analysis and support strategic HR planning. Explore the project to see how these insights can drive growth and development.
+- Gross salary overview
+- Average salary by department
+- Minimum and maximum salary
+- Salary distribution
 
+### 📈 Performance Analysis
 
+- Salary vs. employee ratings
+- Department-level performance patterns
+- Workforce trends
 
+### 🧑‍💼 Demographic Analysis
 
+- Employee age-group distribution
+- Gender distribution
+- Department demographics
+
+---
+
+## 🧠 Analytical Approach
+
+1. Data preparation
+2. Data transformation
+3. KPI development
+4. Data modeling
+5. Interactive visualization
+6. Insight generation
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Power BI | Dashboard & visualization |
+| Power Query | Data transformation |
+| DAX | KPI & analytical measures |
+| Excel / CSV | Data source |
+| Data Modeling | Analytical relationships |
+
+---
+
+## 📸 Dashboard Preview
+
+### Executive Overview
+![Overview](screenshots/overview.png)
+
+### Workforce Analytics
+![Workforce](screenshots/workforce.png)
+
+### Compensation Analytics
+![Compensation](screenshots/compensation.png)
+
+### Demographic Analysis
+![Demographics](screenshots/demographics.png)
+
+---
+
+## 📁 Repository Structure
+
+```text
+PeoplePulse/
+├── dashboard/
+│   └── PeoplePulse.pbix
+├── screenshots/
+├── report/
+│   └── PeoplePulse-Report.pdf
+├── data/
+└── README.md
